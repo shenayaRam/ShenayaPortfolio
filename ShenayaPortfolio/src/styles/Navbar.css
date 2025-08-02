@@ -1,0 +1,20 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(206, 101, 101, 0); /* semi-transparent background */
+  padding: 1rem 2rem;
+  z-index: 1000;
+  backdrop-filter: blur(10px); /* optional blur */
+  display: flex;
+  align-items: center;
+}
+
+.nav-left ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
